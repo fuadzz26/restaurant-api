@@ -19,7 +19,7 @@
       "rating": 4.8,
       "price": { "lowest": 120000, "highest": 350000 },
       "openingHours": { "open": "10:00", "close": "22:00" },
-      "categoryIds": [1],
+      "categoryIds": [1,3],
       "photos": [
         "https://picsum.photos/400/300?random=1",
         "https://picsum.photos/400/300?random=21"
@@ -88,7 +88,7 @@
       "rating": 4.4,
       "price": { "lowest": 60000, "highest": 150000 },
       "openingHours": { "open": "10:00", "close": "21:00" },
-      "categoryIds": [2],
+      "categoryIds": [2, 3],
       "photos": [
         "https://picsum.photos/400/300?random=7",
         "https://picsum.photos/400/300?random=27"
@@ -101,7 +101,7 @@
       "rating": 4.7,
       "price": { "lowest": 110000, "highest": 300000 },
       "openingHours": { "open": "12:00", "close": "23:00" },
-      "categoryIds": [4],
+      "categoryIds": [4,3],
       "photos": ["https://picsum.photos/400/300?random=8"]
     },
     {
@@ -152,12 +152,49 @@
     }
   ],
 
-  "reviews": [
-    { "id": 1, "restaurantId": 1, "name": "Budi", "rating": 5, "text": "Pelayanan luar biasa." },
-    { "id": 2, "restaurantId": 3, "name": "Sari", "rating": 4, "text": "Tempatnya elegan." },
-    { "id": 3, "restaurantId": 5, "name": "Rizky", "rating": 5, "text": "Seafood segar." },
-    { "id": 4, "restaurantId": 7, "name": "Dina", "rating": 5, "text": "Interior mewah." },
-    { "id": 5, "restaurantId": 9, "name": "Andi", "rating": 4, "text": "Nyaman." },
-    { "id": 6, "restaurantId": 11, "name": "Lina", "rating": 5, "text": "Makanannya enak." }
-  ]
+ "reviews": [
+  {
+    "id": 1,
+    "restaurantId": 1,
+    "name": "Budi",
+    "rating": 5,
+    "text": "Pelayanan luar biasa."
+  },
+  {
+    "id": 2,
+    "restaurantId": 1,
+    "name": "Sari",
+    "rating": 4,
+    "text": "Tempatnya elegan dan nyaman."
+  },
+  {
+    "id": 3,
+    "restaurantId": 1,
+    "name": "Rizky",
+    "rating": 5,
+    "text": "Makanannya premium dan enak."
+  },
+  {
+    "id": 4,
+    "restaurantId": 3,
+    "name": "Dina",
+    "rating": 5,
+    "text": "Interior mewah."
+  },
+  {
+    "id": 5,
+    "restaurantId": 5,
+    "name": "Andi",
+    "rating": 4,
+    "text": "Seafood segar."
+  },
+  {
+    "id": 6,
+    "restaurantId": 7,
+    "name": "Lina",
+    "rating": 5,
+    "text": "Pelayanan cepat."
+  }
+]
+
 }
