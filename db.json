@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ahmad Muzakki",
+      "username": "ahmad",
+      "password": "123456",
+      "is_owner_resto": true
+    },
+    {
+      "id": 2,
+      "name": "Budi Santoso",
+      "username": "budi",
+      "password": "123456",
+      "is_owner_resto": false
+    }
+  ],
+
+  "categories": [
+    { "id": 1, "name": "Fine Dining" },
+    { "id": 2, "name": "Italian" },
+    { "id": 3, "name": "Japanese" },
+    { "id": 4, "name": "Steakhouse" },
+    { "id": 5, "name": "Seafood" }
+  ],
+
+  "restaurants": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Golden Lotus Signature",
+      "rating": 4.8,
+      "priceRange": 3,
+      "open": true,
+      "categoryIds": [1, 5],
+      "photos": [
+        "https://picsum.photos/400/300?random=1",
+        "https://picsum.photos/400/300?random=2"
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Imperial Truffle Dining",
+      "rating": 4.7,
+      "priceRange": 3,
+      "open": true,
+      "categoryIds": [1, 2],
+      "photos": [
+        "https://picsum.photos/400/300?random=3"
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "name": "Sakura Prestige",
+      "rating": 4.6,
+      "priceRange": 2,
+      "open": false,
+      "categoryIds": [3],
+      "photos": [
+        "https://picsum.photos/400/300?random=4"
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "name": "Royal Ember Steakhouse",
+      "rating": 4.9,
+      "priceRange": 3,
+      "open": true,
+      "categoryIds": [4],
+      "photos": [
+        "https://picsum.photos/400/300?random=5"
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "name": "Azure Ocean Pavilion",
+      "rating": 4.5,
+      "priceRange": 2,
+      "open": true,
+      "categoryIds": [5],
+      "photos": [
+        "https://picsum.photos/400/300?random=6"
+      ]
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "restaurantId": 1,
+      "name": "Budi",
+      "rating": 5,
+      "text": "Pelayanan luar biasa dan makanannya premium.",
+      "image": "https://picsum.photos/100?random=11"
+    },
+    {
+      "id": 2,
+      "restaurantId": 1,
+      "name": "Sari",
+      "rating": 4,
+      "text": "Tempatnya elegan dan nyaman.",
+      "image": "https://picsum.photos/100?random=12"
+    },
+    {
+      "id": 3,
+      "restaurantId": 3,
+      "name": "Rizky",
+      "rating": 5,
+      "text": "Sushi terbaik yang pernah saya coba.",
+      "image": "https://picsum.photos/100?random=13"
+    },
+    {
+      "id": 4,
+      "restaurantId": 4,
+      "name": "Dina",
+      "rating": 5,
+      "text": "Steaknya juicy dan perfectly cooked.",
+      "image": "https://picsum.photos/100?random=14"
+    }
+  ]
+}
