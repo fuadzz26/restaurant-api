@@ -19,7 +19,7 @@
     "name": "Golden Lotus Signature",
     "rating": 4.8,
     "price": { "lowest": 120000, "highest": 350000 },
-    "openingHours": { "open": "10:00", "close": "22:00" },
+    "openingHours": { "open": "00:00", "close": "22:00" },
     "categoryIds": [1, 5],
     "location": { "lat": -6.1754, "lng": 106.8272 },
     "photos": [
